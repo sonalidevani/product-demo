@@ -1,0 +1,13 @@
+<div class="p-4">
+    <div class="container">
+        <h1>Hi {{user?.firstName}}!</h1>
+        <p *ngIf=isLoggedin>You're logged</p>
+        <p *ngIf="!isLoggedin">Please Login</p>
+        <p>
+            <a (click)="isLoggedin ?navigateTo('/product') :  alert()">Manage Product</a>
+        </p>
+        <p>
+            <a (click)="isLoggedin ?navigateTo('/users') :  alert()">Manage users</a>
+        </p>
+    </div>
+</div>

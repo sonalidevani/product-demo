@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "firstName": "sonali",
+      "lastName": "devani",
+      "username": "sonali",
+      "password": "2881999",
+      "id": 1
+    },
+    {
+      "firstName": "sonali",
+      "lastName": "parmar",
+      "username": "sonu",
+      "password": "ramsonu",
+      "id": 2
+    },
+    {
+      "firstName": "sonali",
+      "lastName": "parmar",
+      "username": "sonali",
+      "password": "sonaliparmar",
+      "id": 3
+    }
+  ],
+  "product": [
+    {
+      "productName": "sonali",
+      "ProductKey": "devani",
+      "price": "1000",
+      "id": 1
+    }
+  ]
+}
